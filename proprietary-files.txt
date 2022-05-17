@@ -481,11 +481,6 @@ system/lib64/vendor.xiaomi.hw.touchfeature@1.0.so
 
 product/bin/dmabuf_dump
 
-system_ext/bin/aee
-system_ext/bin/aee_aed
-system_ext/bin/aee_aed64
-system_ext/bin/aee_core_forwarder
-system_ext/bin/aee_dumpstate
 system_ext/bin/emdlogger1
 system_ext/bin/emdlogger2
 system_ext/bin/emdlogger3
@@ -493,15 +488,11 @@ system_ext/bin/emdlogger5
 system_ext/bin/mdlogger
 system_ext/bin/rtt
 system_ext/bin/trace
-system_ext/etc/aee-config
 system_ext/etc/custom.conf
-system_ext/etc/init/aee_aed.rc
-system_ext/etc/init/aee_aed64.rc
 system_ext/etc/init/emdlogger1.rc
 system_ext/etc/init/emdlogger2.rc
 system_ext/etc/init/emdlogger3.rc
 system_ext/etc/init/emdlogger5.rc
-system_ext/etc/init/hw/init.aee.rc
 system_ext/etc/init/hw/vendor_init_as_system.rc
 system_ext/etc/init/mdlogger.rc
 system_ext/etc/nr-city.xml
@@ -530,7 +521,6 @@ system_ext/lib/libteeservice_client.trustonic.so
 system_ext/lib/libtess.so
 system_ext/lib/libtflite_mtk.mtk.so
 system_ext/lib/libvpuapi.mtk.so
-system_ext/lib/vendor.mediatek.hardware.aee@1.0.so
 system_ext/lib/vendor.mediatek.hardware.apuware.apusys@1.0.so
 system_ext/lib/vendor.mediatek.hardware.apuware.utils@1.0.so
 system_ext/lib/vendor.mediatek.hardware.apuware.xrp@1.0.so
@@ -574,7 +564,6 @@ system_ext/lib64/libteeservice_client.trustonic.so
 system_ext/lib64/libtess.so
 system_ext/lib64/libtflite_mtk.mtk.so
 system_ext/lib64/libvpuapi.mtk.so
-system_ext/lib64/vendor.mediatek.hardware.aee@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so
@@ -1179,7 +1168,6 @@ vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
 vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
 vendor/bin/hw/android.hardware.thermal@2.0-service.mtk
-vendor/bin/hw/vendor.mediatek.hardware.aee@1.0-service
 vendor/bin/hw/camerahalserver
 vendor/bin/hw/android.hardware.dumpstate@1.1-service.xiaomi
 vendor/bin/hw/android.hardware.gnss@2.1-service-mediatek
@@ -1213,7 +1201,6 @@ vendor/bin/setup_rcv2mainmic.sh
 vendor/bin/muxreport
 vendor/bin/mitee_shell
 vendor/bin/hostapd_cli
-vendor/bin/aee_aedv64
 vendor/bin/rttv
 vendor/bin/SoterProvisioningTool_isee
 vendor/bin/wlan_assistant
@@ -1230,7 +1217,6 @@ vendor/bin/testgameserver
 vendor/bin/conninfra_loader
 vendor/bin/init_thh_isee
 vendor/bin/md_monitor_ctrl
-vendor/bin/aee_aedv
 vendor/bin/mlipayd_isee@1.1
 vendor/bin/mtk_agpsd
 vendor/bin/ccci_fsd
@@ -1238,7 +1224,6 @@ vendor/bin/soterd
 vendor/bin/nvram_daemon
 vendor/bin/thermalloadalgod
 vendor/bin/ccci_mdinit
-vendor/bin/aee_dumpstatev
 vendor/bin/setup_headsetmic2rcv.sh
 vendor/bin/wifi_dump
 vendor/bin/factory
@@ -1274,7 +1259,6 @@ vendor/bin/md_monitor
 vendor/bin/getgameserver
 vendor/bin/miteelog
 vendor/bin/mishow.sh
-vendor/bin/aeev
 vendor/bin/bp_kmsetkey_ca
 vendor/bin/netdagent
 vendor/bin/dexecutor
@@ -1715,7 +1699,6 @@ vendor/lib64/libksensor.so
 vendor/lib64/libCamera_ov64b40sunnymipiraw_Video_Enhance_4K_Zoom1.so
 vendor/lib64/libvidhance_face_stabilizer.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
-vendor/lib64/vendor.mediatek.hardware.aee@1.0.so
 vendor/lib64/libfeature_rss.so
 vendor/lib64/libmmprofile.so
 vendor/lib64/libmtkcam_3rdparty.customer.so
@@ -2563,7 +2546,6 @@ vendor/etc/thermal-mgame.conf
 vendor/etc/ecc_list_OP20.xml
 vendor/etc/vendor-apns-conf.xml
 vendor/etc/audio_policy_configuration.xml
-vendor/etc/aee-config
 vendor/etc/nhw
 vendor/etc/cit_param_config.json
 vendor/etc/bluetooth_audio_policy_configuration.xml
@@ -2747,7 +2729,6 @@ vendor/etc/elliptic_sensor.xml
 vendor/etc/init/hw/meta_init.rc
 vendor/etc/init/hw/factory_init.connectivity.rc
 vendor/etc/init/hw/init.ago.rc
-vendor/etc/init/hw/init.aee.rc
 vendor/etc/init/hw/init.mi_thermald.rc
 vendor/etc/init/hw/init.sensor_2_0.rc
 vendor/etc/init/hw/init.connectivity.rc
@@ -2793,7 +2774,6 @@ vendor/etc/init/vendor.xiaomi.hardware.tidaservice@1.1-miteeservice.rc
 vendor/etc/init/vibrator-mtk-default.rc
 vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-iseeservice.rc
 vendor/etc/init/tetheroffloadservice.rc
-vendor/etc/init/vendor.mediatek.hardware.aee@1.0-service.rc
 vendor/etc/init/atcid.rc
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.dtool@1.0-service.rc
@@ -2815,7 +2795,6 @@ vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-iseeservice.rc
 vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc
 vendor/etc/init/wlan_assistant.rc
-vendor/etc/init/aee_aedv.rc
 vendor/etc/init/init.mfp-daemon.rc
 vendor/etc/init/init.bt_drv.rc
 vendor/etc/init/md_monitor.rc
@@ -2864,7 +2843,6 @@ vendor/etc/init/gbe.rc
 vendor/etc/init/miteelog.rc
 vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.tidaservice@1.1-iseeservice.rc
-vendor/etc/init/aee_aedv64.rc
 vendor/etc/init/init_conninfra.rc
 vendor/etc/partition_permission.sh
 vendor/etc/gbe.cfg

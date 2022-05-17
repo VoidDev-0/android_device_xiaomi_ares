@@ -31,7 +31,6 @@
         manifest_keyinstall.xml
         manifest_log.xml
         manifest_mdmonitor.xml
-        manifest_aee.xml
         manifest_boot.xml
         manifest_netdagent.xml
         manifest_tetheroffloadservice.xml
@@ -340,18 +339,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.1::IUsbGadget/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.mediatek.hardware.aee</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IAee</name>
-            <instance>AEE</instance>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IAee/AEE</fqname>
-        <fqname>@1.0::IAee/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.mediatek.hardware.apuware.apusys</name>
