@@ -342,7 +342,3 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd@1.2.vendor \
     libkeystore-engine-wifi-hidl:64 \
     libkeystore-wifi-hidl
-
-# XiaomiParts
-PRODUCT_PACKAGES += \
-    XiaomiParts
